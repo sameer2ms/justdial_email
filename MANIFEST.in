@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include justdial_email_integration *.css
+recursive-include justdial_email_integration *.csv
+recursive-include justdial_email_integration *.html
+recursive-include justdial_email_integration *.ico
+recursive-include justdial_email_integration *.js
+recursive-include justdial_email_integration *.json
+recursive-include justdial_email_integration *.md
+recursive-include justdial_email_integration *.png
+recursive-include justdial_email_integration *.py
+recursive-include justdial_email_integration *.svg
+recursive-include justdial_email_integration *.txt
+recursive-exclude justdial_email_integration *.pyc
