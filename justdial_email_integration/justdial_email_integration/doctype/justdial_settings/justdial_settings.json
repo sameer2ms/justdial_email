@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-21 10:50:11.942524",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "enable",
+  "get_now",
+  "section_break_ixrd3",
+  "email",
+  "password",
+  "column_break_tho1a",
+  "imap",
+  "folder",
+  "last_sync",
+  "section_break_8oraz",
+  "emails_table",
+  "uid"
+ ],
+ "fields": [
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "in_list_view": 1,
+   "label": "Password",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_tho1a",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "imap",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "IMAP",
+   "reqd": 1
+  },
+  {
+   "fieldname": "last_sync",
+   "fieldtype": "Datetime",
+   "label": "Last Synced"
+  },
+  {
+   "default": "0",
+   "description": "Check to start receiving Leads",
+   "fieldname": "enable",
+   "fieldtype": "Check",
+   "label": "Enable"
+  },
+  {
+   "fieldname": "section_break_ixrd3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_8oraz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Enter the emails from which leads are received from Justdial",
+   "fieldname": "emails_table",
+   "fieldtype": "Table",
+   "label": "Emails",
+   "options": "JD Emails",
+   "reqd": 1
+  },
+  {
+   "fieldname": "get_now",
+   "fieldtype": "Button",
+   "label": "Get Now"
+  },
+  {
+   "fieldname": "folder",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Folder",
+   "reqd": 1
+  },
+  {
+   "fieldname": "uid",
+   "fieldtype": "Data",
+   "label": "UID"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-06-22 12:09:35.764939",
+ "modified_by": "Administrator",
+ "module": "Justdial Email Integration",
+ "name": "Justdial Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
